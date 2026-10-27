@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alvin Shah | Data Engineering & Embedded Systems</title>
+  <!-- Google Fonts: Inter for UI, JetBrains Mono for technical accents -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Background Glow -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+
+  <!-- Floating Glassmorphic Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="mono-accent">DR35GS</span> // ALVIN SHAH
+      </a>
+      <div class="nav-links">
+        <a href="#about">Profile</a>
+        <a href="#architecture">Stack</a>
+        <a href="#work">Selected Work</a>
+        <a href="#reflection">Reflection</a>
+        <a href="https://github.com/DR35GS" target="_blank" rel="noopener" class="nav-btn">GitHub ↗</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Header -->
+  <header class="hero reveal">
+    <div class="hero-badge">
+      <span class="status-dot"></span>
+      <span>SCST1133 DATA ENGINEERING ECOSYSTEM • UTM SKUDAI</span>
+    </div>
+    <h1 class="hero-title">
+      Alvin Shah <span class="text-gradient">bin Samsir Alang</span>
+    </h1>
+    <p class="hero-subtitle">
+      Data Engineering undergraduate bridging the gap between physical hardware diagnostics, low-latency embedded systems, and scalable data architectures.
+    </p>
+    <div class="hero-meta mono-accent">
+      <span>B.Comp.Sc (Data Engineering) '29</span>
+      <span class="separator">/</span>
+      <span>KMJ Alumni</span>
+      <span class="separator">/</span>
+      <span>Johor, MY</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- Professional Profile Section -->
+    <section id="about" class="card spotlight reveal">
+      <div class="section-header">
+        <span class="mono-label">01 // OVERVIEW</span>
+        <h2>Professional Profile</h2>
+      </div>
+      <div class="profile-content">
+        <p class="lead-text">
+          I approach software and data engineering from the silicon up. Rather than treating data pipelines as purely abstract cloud concepts, my focus lies in understanding how raw data is generated at the physical edge, transmitted across protocols, structured, and analyzed.
+        </p>
+        <p>
+          Currently pursuing a Bachelor of Computer Science in Data Engineering at <strong>Universiti Teknologi Malaysia (UTM)</strong> following my foundation in the Science Computer Programme at <strong>Kolej Matrikulasi Johor (KMJ)</strong>. Alongside my academic focus on data ecosystems, I actively prototype with microcontrollers, build browser-based computer vision interfaces, and perform component-level PCB diagnostics and hardware restoration.
+        </p>
+      </div>
+    </section>
+
+    <!-- Bento Grid: Technical Architecture (Added Value Layer) -->
+    <section id="architecture" class="reveal">
+      <div class="section-header">
+        <span class="mono-label">02 // CAPABILITIES</span>
+        <h2>Technical Ecosystem</h2>
+      </div>
+      <div class="bento-grid">
+        <div class="card spotlight bento-item">
+          <div class="bento-icon mono-accent">[DATA & CODE]</div>
+          <h3>Data Engineering & Web</h3>
+          <p>Structuring data workflows, interactive front-end interfaces, and real-time browser processing using modern JavaScript, HTML5/CSS3, and Tailwind CSS.</p>
+          <div class="tag-group">
+            <span>Data Pipelines</span>
+            <span>JavaScript</span>
+            <span>HTML/CSS</span>
+            <span>Git</span>
+          </div>
+        </div>
+
+        <div class="card spotlight bento-item">
+          <div class="bento-icon mono-accent">[EMBEDDED & IoT]</div>
+          <h3>Edge & Microcontrollers</h3>
+          <p>Designing custom sensor circuits, wireless telemetry, and audio/RFID hardware integrations utilizing the Arduino framework and low-latency wireless protocols.</p>
+          <div class="tag-group">
+            <span>ESP32</span>
+            <span>ESP-NOW</span>
+            <span>I2S DAC</span>
+            <span>MFRC522 RFID</span>
+          </div>
+        </div>
+
+        <div class="card spotlight bento-item">
+          <div class="bento-icon mono-accent">[COMPUTER VISION]</div>
+          <h3>Human-Computer Interaction</h3>
+          <p>Exploring touchless UI paradigms and spatial computing through client-side machine learning models and hand-landmark tracking.</p>
+          <div class="tag-group">
+            <span>MediaPipe Hands</span>
+            <span>Air Cursor UI</span>
+            <span>WebRTC</span>
+          </div>
+        </div>
+
+        <div class="card spotlight bento-item">
+          <div class="bento-icon mono-accent">[DIAGNOSTICS]</div>
+          <h3>Hardware & PCB Level</h3>
+          <p>Component-level fault isolation, circuit continuity tracing, resistance testing, and precision soldering for embedded and consumer electronics.</p>
+          <div class="tag-group">
+            <span>Multimeter Diagnostics</span>
+            <span>PCB Tracing</span>
+            <span>Hardware Modding</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Work Section (Course Required + Real Projects) -->
+    <section id="work" class="reveal">
+      <div class="section-header">
+        <span class="mono-label">03 // ARTIFACTS & PROJECTS</span>
+        <h2>Selected Work</h2>
+      </div>
+
+      <div class="work-grid">
+        <!-- Required Course Artifact -->
+        <article class="card spotlight work-card featured-work">
+          <div class="work-content">
+            <div class="work-meta mono-accent">SCST1133 COURSE ARTIFACT • UI/UX</div>
+            <h3>Design Thinking and Figma Prototype</h3>
+            <p>
+              Applied structured Design Thinking methodologies—empathize, define, ideate, and prototype—to translate complex user and data requirements into an intuitive interface. Focused on reducing cognitive load, establishing clear visual hierarchy, and mapping logical user flows before writing a single line of production code.
+            </p>
+            <div class="tag-group">
+              <span>Figma</span>
+              <span>Design Thinking</span>
+              <span>Wireframing</span>
+              <span>UX Architecture</span>
+            </div>
+          </div>
+          <div class="work-media">
+            <!-- Keeps your exact image path from the prompt, with a clean fallback style if the image isn't uploaded yet -->
+            <div class="image-frame">
+              <img src="images/project-screenshot.png" alt="Screenshot of my Figma prototype" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="image-fallback mono-accent">
+                <span>[ images/project-screenshot.png ]</span>
+                <small>Place your Figma screenshot in the /images folder</small>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Additional Project 1: MediaPipe -->
+        <article class="card spotlight work-card">
+          <div class="work-meta mono-accent">HUMAN-COMPUTER INTERACTION</div>
+          <h3>MediaPipe Virtual Air Cursor</h3>
+          <p>
+            Engineered a browser-based hand-tracking control system using MediaPipe Hands and JavaScript. Translates real-time webcam landmark coordinates into smooth virtual cursor movements and gesture-triggered click events without external hardware sensors.
+          </p>
+          <div class="tag-group">
+            <span>MediaPipe</span>
+            <span>JavaScript</span>
+            <span>Tailwind CSS</span>
+            <span>Computer Vision</span>
+          </div>
+        </article>
+
+        <!-- Additional Project 2: Embedded Systems -->
+        <article class="card spotlight work-card">
+          <div class="work-meta mono-accent">EMBEDDED SYSTEMS ENGINEERING</div>
+          <h3>ESP32 Telemetry & Custom Audio/RFID Nodes</h3>
+          <p>
+            Developed custom microcontroller architectures combining ESP32 boards with the connectionless ESP-NOW protocol for rapid peer-to-peer packet transmission, alongside MFRC522 RFID authentication and digital audio output via I2S DAC modules.
+          </p>
+          <div class="tag-group">
+            <span>C++ / Arduino</span>
+            <span>ESP32</span>
+            <span>ESP-NOW</span>
+            <span>Hardware Integration</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Course Reflection Section -->
+    <section id="reflection" class="card spotlight reveal">
+      <div class="section-header">
+        <span class="mono-label">04 // RETROSPECTIVE</span>
+        <h2>Course Reflection: SCST1133</h2>
+      </div>
+      <div class="reflection-grid">
+        <div class="reflection-block">
+          <h3 class="mono-accent">Key Takeaways</h3>
+          <p>
+            Stepping into <strong>SCST1133 (Data Engineering Ecosystem)</strong> shifted how I view the lifecycle of information. Coming from a background heavy in hands-on hardware tinkering and foundational computer science, it is easy to fixate purely on the mechanics of execution. This course contextualized how raw data moves through an enterprise ecosystem—from ingestion and storage architecture to human-centered presentation via Design Thinking.
+          </p>
+        </div>
+        <div class="reflection-block">
+          <h3 class="mono-accent">Areas for Improvement & Trajectory</h3>
+          <p>
+            Moving forward, my primary goal is to tighten the integration between my edge-computing projects and formal data engineering pipelines. While I am comfortable generating sensor data on an ESP32 or capturing landmark coordinates in a browser, I aim to deepen my proficiency in automated ETL orchestration, distributed database querying, and cloud-native warehousing to analyze that telemetry at scale.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <span class="mono-accent">ALVIN SHAH BIN SAMSIR ALANG</span>
+        <p class="footer-sub">Universiti Teknologi Malaysia • Faculty of Computing</p>
+      </div>
+      <div class="footer-right mono-accent">
+        <span>© 2026</span>
+        <span class="separator">/</span>
+        <a href="https://github.com/DR35GS" target="_blank" rel="noopener">github.com/DR35GS</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
